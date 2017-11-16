@@ -1,0 +1,46 @@
+[2017-11-14 06:00:07,268] {__init__.py:57} INFO - Using executor CeleryExecutor
+[I 171114 06:00:08 command:139] Visit me at http://0.0.0.0:5555
+[I 171114 06:00:08 command:144] Broker: amqp://airflow:**@52.91.76.220:5672//
+[I 171114 06:00:08 command:147] Registered tasks: 
+    ['celery.backend_cleanup',
+     'celery.chain',
+     'celery.chord',
+     'celery.chord_unlock',
+     'celery.chunks',
+     'celery.group',
+     'celery.map',
+     'celery.starmap']
+[I 171114 06:00:08 mixins:231] Connected to amqp://airflow:**@52.91.76.220:5672//
+[W 171114 06:00:10 control:44] 'stats' inspect method failed
+[W 171114 06:00:10 control:44] 'active_queues' inspect method failed
+[W 171114 06:00:10 control:44] 'registered' inspect method failed
+[W 171114 06:00:10 control:44] 'scheduled' inspect method failed
+[W 171114 06:00:10 control:44] 'active' inspect method failed
+[W 171114 06:00:10 control:44] 'reserved' inspect method failed
+[W 171114 06:00:10 control:44] 'revoked' inspect method failed
+[W 171114 06:00:10 control:44] 'conf' inspect method failed
+[W 171114 07:33:43 state:161] Substantial drift from celery@ip-172-31-89-19 may mean clocks are out of sync.  Current drift is
+    78 seconds.  [orig: 2017-11-14 07:33:43.981546 recv: 2017-11-14 07:32:25.125231]
+    
+[I 171114 10:37:39 command:47] SIGTERM detected, shutting down
+[2017-11-14 15:55:30,323] {__init__.py:57} INFO - Using executor CeleryExecutor
+[I 171114 15:55:31 command:139] Visit me at http://0.0.0.0:5555
+[I 171114 15:55:31 command:144] Broker: amqp://airflow:**@52.91.76.220:5672//
+[I 171114 15:55:31 command:147] Registered tasks: 
+    ['celery.backend_cleanup',
+     'celery.chain',
+     'celery.chord',
+     'celery.chord_unlock',
+     'celery.chunks',
+     'celery.group',
+     'celery.map',
+     'celery.starmap']
+[I 171114 15:55:31 mixins:231] Connected to amqp://airflow:**@52.91.76.220:5672//
+[W 171114 15:55:33 control:44] 'stats' inspect method failed
+[W 171114 15:55:33 control:44] 'active_queues' inspect method failed
+[W 171114 15:55:33 control:44] 'registered' inspect method failed
+[W 171114 15:55:33 control:44] 'scheduled' inspect method failed
+[W 171114 15:55:33 control:44] 'active' inspect method failed
+[W 171114 15:55:33 control:44] 'reserved' inspect method failed
+[W 171114 15:55:33 control:44] 'revoked' inspect method failed
+[W 171114 15:55:33 control:44] 'conf' inspect method failed
